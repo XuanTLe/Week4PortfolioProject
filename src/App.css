@@ -1,0 +1,159 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pro {
+  margin: 45px;
+}
+
+#homePage {
+  background: url('./img/homePic2.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#homePage::after {
+  background: rgba(0, 0, 0, 0.2);
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.homeButton {
+  margin: 70px;
+  background-color: black;
+}
+
+.homeButton a {
+  font-size: xx-large;
+  text-decoration: none;
+  color: rgb(248, 242, 242);
+}
+.page-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  position: relative;
+  z-index: 2;
+}
+
+.page-heading h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.titlePar {
+  color: rgb(15, 15, 15);
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-center;
+  padding: 50px;
+  font-size: x-large;
+}
+
+.titleProject {
+  color: rgb(15, 15, 15);
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-center;
+  padding-top: 30px;
+  font-size: x-large;
+}
+
+.titleRand {
+  color: rgb(15, 15, 15);
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-center;
+  padding-top: 25px;
+  font-size: x-large;
+}
+
+.gridStyle {
+  margin: 20px;
+  text-align: left;
+}
+
+.gridStyle h4 {
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.gridStyle p {
+  font-size: x-large;
+}
+
+.cardStyle {
+  height: 400px;
+  width: 350px;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.par {
+  font-size: x-large;
+}
+
+.buttonCard {
+  margin-top: 5px;
+  background-color: light;
+}
+
+.buttonCard a {
+  text-decoration: none;
+  color: rgb(248, 242, 242);
+}
+
+.cardText {
+  margin-bottom: 10px;
+  height: 75px;
+  background-color: black;
+}
+
+.contact form {
+  width: 70%;
+}
+
+.page-heading h3 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.noPadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.noMargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logo {
+  margin-left: 700px;
+}
